@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import Graph from './Graph.js';
+// import GUI from "./react-graph.js";
+import { BodyWidget } from "./components/BodyWidget";
+import { Application } from "./Application"
 
 function App() {
+  var app = new Application();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <BodyWidget app={app} />;
     </div>
   );
 }

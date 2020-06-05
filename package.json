@@ -3,12 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@projectstorm/react-canvas-core": "^6.1.1",
+    "@projectstorm/react-diagrams": "^6.0.1-beta.7",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/lodash": "^4.14.154",
+    "closest": "^0.0.1",
+    "dagre": "^0.8.5",
+    "lodash": "^4.17.15",
+    "mathjs": "^7.0.1",
+    "pathfinding": "^0.4.18",
+    "paths-js": "^0.4.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-editable-svg-label": "^2.0.3",
+    "react-portal": "^4.2.1",
+    "react-scripts": "3.4.1",
+    "resize-observer-polyfill": "^1.5.1",
+    "typescript": "^3.9.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-digraph": "git+https://github.com/joy-avaya/react-digraph.git"
   }
 }

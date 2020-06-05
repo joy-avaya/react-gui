@@ -24,6 +24,18 @@
   color: white;
 }
 
+body > #root > div {
+  height: 100vh;
+}
+
+#graph {
+  height: 100%;
+}
+
+.edge-container > .edge > use {
+  display: none;
+}
+
 .App-link {
   color: #61dafb;
 }
