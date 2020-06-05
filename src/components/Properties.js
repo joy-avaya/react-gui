@@ -3,7 +3,7 @@ import * as React from 'react';
 export default class PropertiesView extends React.Component {
     constructor(props) {
         super(props)
-        this.state = { message: "enter your message here..."}
+        this.state = { message: ""}
     }
     
     handleChange = (e) => {
@@ -21,7 +21,8 @@ export default class PropertiesView extends React.Component {
                     type="text"
                     value={this.state.message}
                     onChange={this.handleChange}
-                    style={{backgroundColor: "lightblue", border: 0, outline:0, borderBottom: "1px solid black"}}
+                    placeholder="enter your message here..."
+                    style={{height: "50px", fontSize: "15px", backgroundColor: "lightblue", border: 0, outline:0, borderBottom: "1px solid black"}}
                 />
                 <button style={{width: "100px"}} onClick= {() => this.onSubmit()}> submit</button>
             </div>

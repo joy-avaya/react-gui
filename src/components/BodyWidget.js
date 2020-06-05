@@ -58,7 +58,7 @@ export class BodyWidget extends React.Component {
 			<S.Body>
 				<S.Header>
 					<div className="title">GUI Designer</div>
-					<button onClick={() => this.serialize()}> serialize </button>
+					<button onClick={() => this.serialize()} style={{margin: "5px", backgroundColor: "blue"}}> serialize </button>
 				</S.Header>
 				<S.Content>
 					<TrayWidget>
