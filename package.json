@@ -13,7 +13,7 @@
     "@types/lodash": "^4.14.154",
     "closest": "^0.0.1",
     "dagre": "^0.8.5",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "mathjs": "^7.0.1",
     "pathfinding": "^0.4.18",
     "paths-js": "^0.4.10",
